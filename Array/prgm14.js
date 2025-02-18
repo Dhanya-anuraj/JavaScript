@@ -1,5 +1,4 @@
 //nested array
-
 //w.a.p to find sum of all numbers in given array
 sum = 0
 for(let a of arr){

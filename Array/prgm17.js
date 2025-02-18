@@ -41,7 +41,7 @@ console.log(`employee whose salary > 30000`);
 
 for(let emp of employee){
     if(emp[4] > 30000){
-        console.log(emp);
+        console.log(emp[1]);
         
     }
 }
@@ -49,5 +49,10 @@ console.log(`------------------------------------`);
 
 // print details of employee Laisha
 console.log(`details of employee Laisha`);
+for(let emp of employee){
+    if(emp[1] == 'Laisha'){
+        console.log(emp);
+        
+    }
+}
 
-console.log(employee[4]);

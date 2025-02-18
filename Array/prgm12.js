@@ -6,7 +6,7 @@ q = [11,20,25,30,33]
 a = 0
 b = 0
 isDuplicate = false
-while(a <= p.length-1 && a <= q.length-1){
+while(a <= p.length-1 && b <= q.length-1){
     if(p[a]== q[b]){
         isDuplicate = true
         console.log(p[a]);

@@ -1,0 +1,1 @@
+//12-> find()- return first element satisfying  a particular condition
