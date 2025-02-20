@@ -57,15 +57,19 @@ console.log(ascexp);
 
 console.log(`------------------------------------`);
 //find the total salary expence of the company
+
+tosal = employee.map((emp)=> emp[4]).reduce((n1,n2)=>n1+n2)
+console.log(tosal);
+
 console.log(`------------------------------------`);
 
 //find the highest salary
-highest = employee.reduce((emp1,emp2)=>emp1[4]>emp2[4]?emp1[4]:emp2[4])
-console.log(highest);
+highest = employee.reduce((emp1,emp2)=>emp1[4]>emp2[4]?emp1:emp2)
+console.log(highest[4]);
+console.log(`------------------------------------`);
 
 //find the lowest salary
-//find the highest salary
-lowest = employee.reduce((emp1,emp2)=>emp1[4]<emp2[4]?emp1[4]:emp2[4])
-console.log(lowest);
+lowest = employee.reduce((emp1,emp2)=>emp1[4]<emp2[4]?emp1:emp2)
+console.log(lowest[4]);
 
 
