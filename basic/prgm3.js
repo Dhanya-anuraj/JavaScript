@@ -20,3 +20,6 @@ console.log(y);
 var z = 30
 console.log(z);
 z =5
+console.log(z);
+
+

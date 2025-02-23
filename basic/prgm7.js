@@ -41,6 +41,7 @@ x = 70
 y = 3
 console.log(`reminder of ${x} and ${y} is ${x % y}`);
 
+console.log(`-----------------------------------`);
 
 //Relational operaters
 

@@ -1,12 +1,11 @@
 //w.a.p to check whether a given person is eligible to vote.
 
-age = 8
-
+age = 10
 if(age>=18){
-    console.log(`eligible to vote`);
-    
+    console.log(`eligible for voting`);
+
 }
 else{
-    console.log(`not eligible`);
+    console.log(`not eligible for voting`);
     
 }
