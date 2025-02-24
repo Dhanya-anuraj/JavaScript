@@ -40,7 +40,7 @@ a1 = sentence.replaceAll('kakkanadu','kochi')
 console.log(a1);
 //11) Array.from()
 str2 = 'luminar'
-c = str2.Array.from(str2)
+c = Array.from(str2)
 console.log(c);
 
 

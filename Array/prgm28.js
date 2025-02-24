@@ -89,6 +89,11 @@ console.log(`the product with the second-highest price.`);
 console.log(`-------------------------------------`);
 
 // 14. Find the total value of the stock for each product (price × stock).
+products.forEach((prdct) => {
+    let stockValue = prdct[2] * prdct[3];
+    console.log(`${prdct[1]}: Rs. ${stockValue}`);
+});
+
 
 // 15. Display all product names in uppercase.
 
@@ -105,4 +110,7 @@ console.log(`-------------------------------------`);
 // 19. Check if any product name contains the word 'day'.
 
 // 20. Reverse the order of the product array.
+console.log(`Reverse the order of the product array.`);
+products.slice().reverse().forEach((item) => console.log(item[1]));
+
 

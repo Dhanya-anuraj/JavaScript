@@ -30,15 +30,23 @@ for(let key in employee){
 console.log(`------------------------------`);
 
 // object operations
-//1) add ->
-// (1) objectname['key] = value
-employee['empAtten'] = "90%"
+//1)get
+//2) add ->
+// empAtten : 90%
+employee['empAtten'] = '90%'
+console.log(employee);
+console.log(`------------------------------`);
+Object.assign(employee,{'status':'true'})
 console.log(employee);
 console.log(`------------------------------`);
 
-//(2)Object.assign(objectname,{key:value})
-Object.assign(employee,{'status':true})
+//3) update->
+employee['empExp'] = 5
+employee['empExp'] += 2
 console.log(employee);
+console.log(`------------------------------`);
 
-
+//4 ) delete
+delete employee.status
+console.log(employee);
 
