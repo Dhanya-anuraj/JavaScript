@@ -12,7 +12,7 @@ console.log(`-------------------------------------`);
 //2. check "model" key is present in the object if present print the value.
 console.log(`"model" key is present in the object if present print the value`);
 for(let c in car){
-    if(c.includes("model")){
+    if(c == 'model'){
         console.log(car.model);
         
     }

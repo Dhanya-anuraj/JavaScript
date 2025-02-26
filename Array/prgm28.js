@@ -20,11 +20,10 @@ console.log(`products with stock greater than 50`);
 console.log(`-------------------------------------`);
 
 // 3. Find the product with the lowest price.
-console.log(`product with the lowest price.`);
+console.log('product with the lowest price.');
 lwstprice = products.reduce((pr1,pr2)=>pr1[2]<pr2[2]?pr1:pr2)
-console.log(lwstprice[1]);
-console.log(`-------------------------------------`);
-
+products.filter((item)=>item[2]==lwstprice[2]).forEach((pro)=>console.log(pro[1]))
+console.log('-------------------------------------');
 // 4. Display products whose names start with the letter 'l'.
 console.log(`products whose names start with the letter 'l'`);
  products.filter((prdct)=>prdct[1].startsWith('l')).forEach((item)=>console.log(item[1]))

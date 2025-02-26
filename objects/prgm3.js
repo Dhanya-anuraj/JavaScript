@@ -3,6 +3,7 @@ text = "HAI HELLO ALL HELLO WORLD"
 //W.A.P to print the word count from the given string
 // o/p -> {
 // HAI :1,
+
 // HELLO : 2,
 // ALL : 1,
 // WORLD : 1
