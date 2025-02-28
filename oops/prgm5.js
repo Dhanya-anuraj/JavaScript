@@ -1,23 +1,15 @@
-class A {
-    methoda(){
-        console.log(`inside methd a`);
-        
-    }
+//object - inheritance
+const baleno = {
+    model : "Hatch Back",
+    Varient : ["automatic", "Manual"],
+    Manufacture : "Maruthi"
 }
-class B extends A{
-    methodb(){
-        console.log(`inside method b`);
-        
-    }
+glanza = {
+    manufacture : "Toyoto"
 }
-class C extends B{
-    methodc(){
-        console.log(`inside method c`);
-        
-    }
-}
+glanza__proto__ = baleno
+console.log(glanza.manufacture);
+console.log(glanza.model);
 
-const obj = new C()
-obj.methodc()
-obj.methodb()
-obj.methoda()
+
+
